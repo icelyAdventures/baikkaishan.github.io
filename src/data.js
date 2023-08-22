@@ -7,7 +7,6 @@ import {
   FaCss3Alt,
   FaReact,
   FaBootstrap,
-  FaSass,
 } from "react-icons/fa";
 
 import { IoLogoJavascript } from "react-icons/io5";
