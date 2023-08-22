@@ -1,5 +1,6 @@
 import React from "react";
 import { skills } from "./../data";
+import { Link } from "react-router-dom";
 // import { useParallax } from "react-scroll-parallax";
 
 const Home = () => {
@@ -26,10 +27,10 @@ const Home = () => {
         </ul>
         <div className="btn-container">
           <button className="btn">
-            <a href="#">about me</a>
+            <Link to="/about">About me</Link>
           </button>
           <button className="btn">
-            <a href="#">contact me</a>
+            <Link to="/contact">Contact me</Link>
           </button>
         </div>
       </section>

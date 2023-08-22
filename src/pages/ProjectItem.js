@@ -5,7 +5,7 @@ const ProjectItem = () => {
   return (
     <article className="project">
       <div className="img-container">
-        <img src={nyan} alt="project-image" />
+        <img src={nyan} alt="nyan" />
       </div>
       <div className="description">
         <h3>Project title</h3>
