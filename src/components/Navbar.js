@@ -13,10 +13,12 @@ const Navbar = () => {
           <Link to="/">
             <img src={logo} alt="logo" />
           </Link>
-          <button>
-            <FaBars />
-          </button>
-          <button>dark mode button</button>
+          <div className="btn-container">
+            <button>
+              <FaBars />
+            </button>
+            <button>dark mode button</button>
+          </div>
         </div>
 
         {/* links container */}

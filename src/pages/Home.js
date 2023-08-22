@@ -13,7 +13,6 @@ const Home = () => {
       <section className="section section-center">
         <h1>Baik Kai Shan</h1>
         <h3>- Front end Developer - </h3>
-        <p></p>
         <ul className="skills-container">
           {skills.map((skillIcon) => {
             const { id, text, icon } = skillIcon;

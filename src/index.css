@@ -2,11 +2,14 @@
 :root {
   --radius-circle: 50%;
   --lightShadow: 2px 5px 3px 0px #b5d2eb;
-  --buttonShadow: 3px 3px 10px #022038;
   --mainTransition: all 0.3s linear;
+  --buttonShadow: 5px 5px 10px #022038;
+  --buttonTextShadow: 3px 3px 5px #022038;
+  --navBtnShadow: 3px 3px 8px #032a4b;
+  --buttonTextShadowSmall: 5px 5px 0 #fff;
 
   --projectTransition: all 0.5s ease-in-out;
-  --projectShadow: 1rem 1rem #022038;
+  --projectShadow: 0.5rem 0.8rem #022038;
 
   --palette-one: #ffffff;
   --palette-two: #b5d2eb;
@@ -20,6 +23,7 @@
 
   --radius-top: 1rem 1rem 0 0;
   --radius-bottom: 0 0 1rem 1rem;
+  --radius-all: 1rem;
 
   --titleSize: 3rem;
 }
@@ -98,6 +102,26 @@
   0% {
     opacity: 0;
     transform: translateX(-5rem) rotate(360deg);
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes rotateInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(25rem) rotate(360deg);
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes rotateInTop {
+  0% {
+    opacity: 0;
+    transform: translateY(-5rem) rotate(360deg);
   }
   100% {
     opacity: 1;
@@ -198,7 +222,7 @@ Navbar
 .link-container a:hover {
   background: var(--palette-three);
   color: var(--palette-one);
-  box-shadow: 2px 2px 3px #000;
+  box-shadow: var(--navBtnShadow);
 }
 
 .nav-center .socials {
@@ -225,7 +249,7 @@ Navbar
 .socials a:hover {
   background: var(--palette-three);
   color: var(--palette-one);
-  box-shadow: 2px 2px 3px #000;
+  box-shadow: var(--navBtnShadow);
 }
 
 /* ====== 
@@ -308,42 +332,57 @@ Home
 /* ====== 
 About 
 ====== */
-
-.about {
+.about-section {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   background: var(--palette-two);
 }
-/* background: linear-gradient(
-  to right,
-  #ffffff 0%,
-  #5197cf 10% /* ,
-  /* #076abb 70%, */
-/* #044070 95% */
-/* ); */
-
-.about-info {
-  /* background: var(--palette-two); */
-  width: 40%;
-}
-
-.about-info .title {
-  background: linear-gradient(to bottom right, #b5d2eb 10%, #032a4b 60%);
+.about-section .title,
+.section-title {
   font-size: var(--titleSize);
   text-transform: capitalize;
-  color: var(--palette-one);
-  width: 12.5rem;
+  color: var(--palette-eight);
+  text-shadow: 3px 3px #fff;
+  z-index: 10;
+  padding: 0.2rem 1.5rem;
+  /* margin: 1rem 0; */
+
   transition: var(--mainTransition);
-  padding: 0.2rem 1rem;
-  box-shadow: 1rem 1rem 0 var(--palette-one);
-  margin-bottom: 2rem;
   animation-name: appearFromLeft;
   animation-duration: 1.5s;
   font-family: "Kaushan Script";
-  border-radius: 1rem;
+}
+
+.about-section .triangles {
+  transform: translate(-12rem, -5rem);
+}
+
+.about-section .triangles .triangle:nth-child(n) {
+  animation-name: rotateInRight;
+  animation-duration: 2s;
+}
+.about-section .triangles .triangle:nth-child(2n) {
+  animation-name: rotateInTop;
+  animation-duration: 2s;
+}
+
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-info {
+  width: 40%;
+  /* align-items: end; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
 }
 
 .about-info .about-description {
@@ -363,9 +402,7 @@ About
   font-weight: 1000;
   letter-spacing: 0.05rem;
   margin-bottom: 0.5rem;
-  /* text-decoration: underline var(--palette-two); */
   border-bottom: 1px solid var(--palette-seven);
-  /* width: 60%; */
 }
 
 .about-description p {
@@ -380,14 +417,11 @@ About
   animation-name: appearFromLeftMore2;
   animation-duration: 2s;
   box-shadow: 1rem 1rem var(--palette-one);
-  /* border-radius: 1rem 0.5rem; */
 }
 
 .about-skills h2 {
-  /* display: flex; */
   color: var(--palette-seven);
   border-bottom: 1px solid var(--palette-seven);
-  /* width: 25%; */
 }
 
 .about-skills .skills {
@@ -414,8 +448,8 @@ About
 
 .about-img {
   /* background: var(--palette-four); */
-  width: 20%;
-  height: 50%;
+  width: 30%;
+  height: 100%;
   margin: 2rem 3rem;
   display: flex;
   justify-content: center;
@@ -424,8 +458,8 @@ About
 }
 
 .about-img img {
-  width: 25rem;
-  height: 35rem;
+  width: 20rem;
+  height: 25rem;
   margin-bottom: 2rem;
   border-radius: 10%;
   animation-name: appearFromTop;
@@ -433,10 +467,30 @@ About
 }
 
 .btn-resume {
-  background: var(--palette-two);
+  /* background: var(--palette-two); */
   color: var(--palette-five);
   animation-name: appearFromRight;
   animation-duration: 2s;
+  font-size: 1.2rem;
+  font-weight: bold;
+  background: linear-gradient(#b5d2eb 0%, #044070 60%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.btn-resume:hover {
+  /* transition-property: background-color; */
+  /* transition-duration: 0.5s; */
+  background: linear-gradient(
+    to bottom right,
+    #b5d2eb 0%,
+    #3988c9 50%,
+    #044070 80%
+  );
+  color: var(--palette-one);
+  -webkit-background-clip: unset;
+  -webkit-text-fill-color: var(--palette-one);
+  box-shadow: var(--buttonShadow);
 }
 
 /* ====== 
@@ -453,10 +507,9 @@ Project List
   background: var(--palette-four);
 }
 
-.section-container .section-title {
+/* .section-container .section-title {
   color: var(--palette-one);
   font-size: var(--titleSize);
-  /* text-transform: uppercase; */
   margin: 1.5rem;
   padding: 0.5rem 2rem;
   animation: appearFromRight 1.5s;
@@ -467,7 +520,7 @@ Project List
   box-shadow: 1rem 1rem 0 var(--palette-one);
   letter-spacing: 0.1rem;
   justify-content: flex-start;
-}
+} */
 
 .section-container .section-projects {
   /* background: var(--palette-two); */
@@ -478,6 +531,14 @@ Project List
   grid-template-columns: 2fr 1fr 2fr;
 }
 
+.section-container .projects {
+  transform: translate(-12rem, -5rem);
+}
+
+.projects .triangle:nth-child(n) {
+  animation-name: rotateInRight;
+  animation-duration: 2s;
+}
 /* ====== 
 Project Item
 ====== */
@@ -564,25 +625,28 @@ Project Item
   overflow: hidden;
   height: 35%;
   /* visibility: hidden; */
+  position: relative;
+  transition: var(--mainTransition);
 }
 
 .description:hover {
   /* height: 100%; */
-  position: relative;
+  transform: translateY(-11rem);
+  height: 17.5rem;
+  /* opacity: 1; */
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: var(--radius-all);
 }
 
 .description h3 {
   font-size: 1rem;
   text-transform: uppercase;
-
   animation-name: appearFromLeft;
   animation-duration: 1.5s;
   font-family: "Kaushan Script";
 }
 
 .description p {
-  /* font-family: "Calibri", sans-serif; */
-  /* background: #000; */
   font-size: 0.8rem;
 }
 
@@ -614,6 +678,12 @@ Project Item
   font-size: 0.8rem;
 }
 
+.btn-code:hover {
+  background: var(--palette-seven);
+  color: var(--palette-one);
+  /* text-shadow: var(--buttonTextShadow); */
+}
+
 /* ====== 
 Contact Page
 ====== */
@@ -642,9 +712,7 @@ Contact Page
   font-size: var(--titleSize);
   margin: 1rem 0;
   text-align: center;
-  /* background: var(--palette-six); */
   color: var(--palette-eight);
-  /* transform: translateX(2rem); */
   z-index: 10;
   position: absolute;
   font-family: "Kaushan Script";

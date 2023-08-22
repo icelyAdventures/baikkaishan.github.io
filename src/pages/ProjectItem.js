@@ -17,8 +17,8 @@ const ProjectItem = () => {
           <li>React</li>
         </ul>
         <div className="btn-container">
-          <button className="btn">code</button>
-          <button className="btn">demo</button>
+          <button className="btn btn-code">code</button>
+          <button className="btn btn-demo">demo</button>
         </div>
       </div>
     </article>
