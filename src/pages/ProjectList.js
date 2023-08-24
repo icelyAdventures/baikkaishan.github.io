@@ -1,29 +1,16 @@
 import React from "react";
 import ProjectItem from "./ProjectItem";
+import Triangle from "../components/Triangle";
 
 const Projects = () => {
   return (
     <section className="section">
-      <div className="section-container">
-        <h1 className="section-title">My Projects</h1>
-        <div className="title-container projects">
-          <div className="triangles">
-            <div className="triangle"></div>
-            <div className="triangle"></div>
-            <div className="triangle"></div>
-            <div className="triangle"></div>
-            <div className="triangle"></div>
-            <div className="triangle"></div>
-            <div className="triangle"></div>
-            <div className="triangle"></div>
-            <div className="triangle"></div>
-            <div className="triangle"></div>
-            <div className="triangle"></div>
-            <div className="triangle"></div>
-            <div className="triangle"></div>
-          </div>
+      <div className="project-list">
+        <div className="section-title">
+          <h1 className="title projects">My Projects</h1>
+          <Triangle />
         </div>
-        <div className="section-projects">
+        <div className="section-container">
           <ProjectItem />
           <ProjectItem />
           <ProjectItem />

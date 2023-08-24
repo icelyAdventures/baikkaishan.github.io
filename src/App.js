@@ -8,7 +8,12 @@ import About from "./pages/About";
 import ProjectList from "./pages/ProjectList";
 import Contact from "./pages/Contact";
 
+// import
+import { useState } from "react";
+
 const App = () => {
+  const [isToggled, setIsToggled] = useState(false);
+
   return (
     <Router>
       <Navbar />

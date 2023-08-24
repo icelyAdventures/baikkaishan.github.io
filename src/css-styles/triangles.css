@@ -1,0 +1,144 @@
+.triangles {
+  position: relative;
+  z-index: 5;
+  /* background: #000; */
+  /* width: 50%; */
+  /* height: 100%; */
+  /* position: relative; */
+}
+
+.triangles .triangle {
+  width: 0;
+  height: 0;
+  position: absolute;
+  animation-name: rotateInLeft;
+  animation-duration: 2s;
+}
+
+.triangle:nth-child(1) {
+  border-left: 2rem solid transparent;
+  border-right: 2rem solid transparent;
+  border-bottom: 3rem solid #032a4b;
+  transform: translate(-12rem, -5.5rem) rotate(30deg);
+  z-index: 3;
+}
+
+.triangle:nth-child(2) {
+  border-left: 1rem solid transparent;
+  border-right: 1rem solid transparent;
+  border-bottom: 2.5rem solid #83b5dd;
+  transform: translate(-9.3rem, -4.2rem) rotate(-30deg);
+  z-index: 2;
+}
+
+.triangle:nth-child(3) {
+  border-left: 1.8rem solid transparent;
+  border-right: 1.8rem solid transparent;
+  border-bottom: 2.8rem solid #fff;
+  transform: translate(-7.8rem, -5.2rem) rotate(70deg);
+  z-index: 1;
+}
+
+.triangle:nth-child(4) {
+  border-left: 1.2rem solid transparent;
+  border-right: 1.2rem solid transparent;
+  border-bottom: 1.8rem solid #3988c9;
+  transform: translate(-6.2rem, -2.5rem) rotate(10deg);
+  z-index: 2;
+}
+
+.triangle:nth-child(5) {
+  border-left: 1rem solid transparent;
+  border-right: 1rem solid transparent;
+  border-bottom: 2.5rem solid #fff;
+  transform: translate(-3.3rem, -3.5rem) rotate(30deg);
+  z-index: 1;
+}
+
+.triangle:nth-child(6) {
+  border-left: 2.2rem solid transparent;
+  border-right: 2.2rem solid transparent;
+  border-bottom: 2rem solid #076abb;
+  transform: translate(-2rem, -4.8rem) rotate(50deg);
+  z-index: 2;
+}
+
+.triangle:nth-child(7) {
+  border-left: 1rem solid transparent;
+  border-right: 1rem solid transparent;
+  border-bottom: 2rem solid #83b5dd;
+  transform: translate(-1.8rem, -2.5rem) rotate(190deg);
+  z-index: 2;
+}
+
+.triangle:nth-child(8) {
+  border-left: 1rem solid transparent;
+  border-right: 1rem solid transparent;
+  border-bottom: 1.2rem solid #fff;
+  transform: translate(0.6rem, -1.2rem) rotate(170deg);
+  z-index: 1;
+}
+
+.triangle:nth-child(9) {
+  border-left: 1.5rem solid transparent;
+  border-right: 1.5rem solid transparent;
+  border-bottom: 1.2rem solid #3988c9;
+  transform: translate(1.5rem, -2.5rem) rotate(190deg);
+  z-index: 2;
+}
+
+.triangle:nth-child(10) {
+  border-left: 2.5rem solid transparent;
+  border-right: 2.5rem solid transparent;
+  border-bottom: 3rem solid #83b5dd;
+  transform: translate(1.5rem, -4.5rem) rotate(170deg);
+  z-index: 1;
+}
+
+.triangle:nth-child(11) {
+  border-left: 1.5rem solid transparent;
+  border-right: 1.5rem solid transparent;
+  border-bottom: 1.3rem solid #044070;
+  transform: translate(3.5rem, -1.4rem) rotate(160deg);
+  z-index: 1;
+}
+
+.triangle:nth-child(12) {
+  border-left: 1.62rem solid transparent;
+  border-right: 1.62rem solid transparent;
+  border-bottom: 2rem solid #fff;
+  transform: translate(6rem, -4.5rem) rotate(160deg);
+  z-index: -1;
+}
+
+.triangle:nth-child(13) {
+  border-left: 1.3rem solid transparent;
+  border-right: 1.3rem solid transparent;
+  border-bottom: 1.8rem solid #076abb;
+  transform: translate(5.85rem, -2.5rem) rotate(185deg);
+  z-index: -2;
+}
+
+.triangle:nth-child(14) {
+  border-left: 1.62rem solid transparent;
+  border-right: 1.62rem solid transparent;
+  border-bottom: 2rem solid #032a4b;
+  transform: translate(6rem, -4.5rem) rotate(160deg);
+  z-index: -1;
+}
+
+.triangle:nth-child(15) {
+  border-left: 2rem solid transparent;
+  border-right: 2rem solid transparent;
+  border-bottom: 2.8rem solid #fff;
+  transform: translate(7.58rem, -4.5rem) rotate(-20deg);
+  z-index: -2;
+}
+
+.triangle:nth-child(16) {
+  border-left: 1.62rem solid transparent;
+  border-right: 1.62rem solid transparent;
+  border-bottom: 1.62rem solid #5197cf;
+  transform: translate(8.7rem, -1.4rem) rotate(155deg);
+  z-index: 1;
+}

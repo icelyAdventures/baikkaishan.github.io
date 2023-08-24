@@ -9,7 +9,15 @@ const ProjectItem = () => {
       </div>
       <div className="description">
         <h3>Project title</h3>
-        <p>Project description</p>
+        <p className="desc">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda,
+          obcaecati facilis. Lorem ipsum dolor sit amet consectetur adipisicing
+          elit. Assumenda, obcaecati facilis. Lorem ipsum dolor sit amet
+          consectetur adipisicing elit. Assumenda, obcaecati facilis. Lorem
+          ipsum dolor sit amet consectetur adipisicing elit. Assumenda,
+          obcaecati facilis. Lorem ipsum dolor sit amet consectetur adipisicing
+          elit. Assumenda, obcaecati facilis.
+        </p>
         <ul>
           <li>HTML</li>
           <li>Javascript</li>
@@ -17,7 +25,7 @@ const ProjectItem = () => {
           <li>React</li>
         </ul>
         <div className="btn-container">
-          <button className="btn btn-code">code</button>
+          <button className="btn btn-code">&lt; code &gt;</button>
           <button className="btn btn-demo">demo</button>
         </div>
       </div>
