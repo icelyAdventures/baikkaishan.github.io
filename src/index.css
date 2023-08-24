@@ -732,8 +732,9 @@ Single Project
   /* align-items: center; */
   justify-content: center;
   width: 90%;
-  overflow: scroll;
+  overflow-y: scroll;
   text-align: justify;
+  padding-right: 0.4rem;
 }
 
 .description ul {

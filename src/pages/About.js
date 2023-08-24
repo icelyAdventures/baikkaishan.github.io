@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "./../logo.png";
+import logo from "./../profile.jpg";
 import { technicalSkills } from "./../data";
 import { FaDownload } from "react-icons/fa";
 import Triangle from "../components/Triangle";

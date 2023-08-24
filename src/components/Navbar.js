@@ -2,13 +2,12 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { FaBars } from "react-icons/fa";
 import { links, socials } from "./../data";
-import logo from "./../logo.png";
-import DarkModeToggle from "./DarkModeButton";
-
-import { useState } from "react";
+import logo from "./../icon.png";
+// import DarkModeToggle from "./DarkModeButton";
+// import { useState } from "react";
 
 const Navbar = () => {
-  const [isToggled, setIsToggled] = useState(false);
+  // const [isToggled, setIsToggled] = useState(false);
 
   return (
     <nav className="navbar">
@@ -28,10 +27,10 @@ const Navbar = () => {
           })}
         </ul>
         <div className="toggle-container">
-          <DarkModeToggle
+          {/* <DarkModeToggle
             isToggled={isToggled}
             onToggle={() => setIsToggled(!isToggled)}
-          />
+          /> */}
           <button className="toggleBtn menu">
             <FaBars />
           </button>
