@@ -1,8 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-// import "./index.css";
 import "./css-styles/triangles.css";
-import "./index1.css";
+import "./index.css";
 import App from "./App";
 // import { ParallaxProvider } from "react-scroll-parallax";
 
