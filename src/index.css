@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Great+Vibes&family=Kaushan+Script&family=Noto+Sans:wght@300;400;500;600;700;800;900&display=swap");
 :root {
+  --titleShadow: 5px 5px #b5d2eb;
   --textShadow: 3px 3px #fff;
   --lightShadow: 2px 5px 3px 0px #b5d2eb;
 
@@ -361,11 +362,10 @@ Home
   font-size: 4rem;
   font-weight: 800;
   text-shadow: 5px 10px 10px var(--palette-two);
-  animation-name: appearFromLeft;
+  animation-name: appearFromLeftMore;
   animation-duration: 1.5s;
-  background: linear-gradient(#b5d2eb 0%, #076abb 60%);
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
+  color: var(--palette-six);
+  text-shadow: var(--titleShadow);
   width: 80vw;
   margin: 0.5rem auto;
 }
