@@ -1,9 +1,13 @@
 import React from "react";
 import logo from "./../profile.jpg";
 import { technicalSkills } from "./../data";
-import { FaDownload } from "react-icons/fa";
+import { FaDownload, FaSearchPlus } from "react-icons/fa";
 import Triangle from "../components/Triangle";
+import Resume from "../components/resume.pdf";
+// import { useGlobalContext } from "../context";
+import { Link } from "react-router-dom";
 const About = () => {
+  // const { openModal } = useGlobalContext();
   return (
     <section className="section">
       <div className="about">
@@ -49,11 +53,16 @@ const About = () => {
           </div>
           <div className="about-img">
             <img src={logo} alt="" className="about-image" />
-            <button className="btn btn-resume">
-              <span>
+            <Link
+              to={Resume}
+              download="BKS Resume 2023 - WebDev"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <button className="btn btn-resume download">
                 Resume <FaDownload />
-              </span>
-            </button>
+              </button>
+            </Link>
           </div>
         </div>
       </div>
