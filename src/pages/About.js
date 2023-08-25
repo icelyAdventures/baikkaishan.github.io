@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "./../profile.jpg";
 import { technicalSkills } from "./../data";
-import { FaDownload, FaSearchPlus } from "react-icons/fa";
+import { FaDownload } from "react-icons/fa";
 import Triangle from "../components/Triangle";
 import Resume from "../components/resume.pdf";
 // import { useGlobalContext } from "../context";

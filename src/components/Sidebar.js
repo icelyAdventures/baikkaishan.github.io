@@ -9,7 +9,7 @@ const Sidebar = () => {
     <div className={`${isSidebarOpen ? "sidebar show-sidebar" : "sidebar"}`}>
       <ul className="links">
         {links.map((link) => {
-          const { id, url, text } = link;
+          const { url, text } = link;
           return (
             <li>
               <Link to={`${url}`}>{text}</Link>

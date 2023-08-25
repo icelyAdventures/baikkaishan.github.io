@@ -1,7 +1,7 @@
 import React from "react";
 import { skills } from "./../data";
 import { Link } from "react-router-dom";
-import Sidebar from "../components/Sidebar";
+// import Sidebar from "../components/Sidebar";
 // import { useParallax } from "react-scroll-parallax";
 
 const Home = () => {
