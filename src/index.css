@@ -749,7 +749,8 @@ Single Project
   border-radius: 1rem;
   overflow: hidden;
   position: relative;
-  height: 22rem;
+  min-height: 22rem;
+  max-height: 24rem;
 }
 
 .project:hover {
@@ -818,7 +819,7 @@ Single Project
   text-transform: uppercase;
   animation-name: appearFromLeft;
   animation-duration: 1.5s;
-  font-family: "Kaushan Script";
+  /* font-family: "Kaushan Script"; */
   text-align: left;
   margin-left: 1rem;
   margin-top: 0.4rem;
@@ -828,11 +829,11 @@ Single Project
 
 .description p {
   border: 1px solid #fff;
-  min-height: 2.2rem;
-  max-height: 4rem;
+  /* min-height: 2.2rem; */
+  max-height: 2.5rem;
   font-size: 0.85rem;
   margin: 0.2rem 1rem;
-  letter-spacing: 0.05rem;
+  /* letter-spacing: 0.05rem; */
   display: flex;
   /* align-items: center; */
   justify-content: center;
