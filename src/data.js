@@ -133,7 +133,7 @@ export const technicalSkills = [
   },
   {
     id: 11,
-    skill: "jQuery",
+    skill: "TypeScript",
   },
   {
     id: 12,
@@ -152,16 +152,15 @@ export const languages = [
 export const singleProject = [
   {
     id: 101,
-    image:
-      "https://i.pinimg.com/originals/0c/64/9a/0c649a17ec1e5f5ca340248b4ef4e4be.gif",
-    title: "A B C",
-    info: "This is a project about A b c",
+    image: "./../images/typing-test.png",
+    title: "Typing Test",
+    info: "This is a typing speed & accuracy test app that was build via TypeScript. This is also my first attempt with using TypeScript. ",
     skill1: "HTML",
     skill2: "CSS",
-    skill3: "JavaScript",
+    skill3: "TypeScript",
     skill4: "React",
-    codeUrl: "https://www.linkedin.com/in/kaishan-baik/",
-    demoUrl: "abc",
+    codeUrl: "https://github.com/kaishan-baik/ts-typing-test",
+    demoUrl: "https://ts-typing-test.netlify.app/",
   },
   {
     id: 102,
