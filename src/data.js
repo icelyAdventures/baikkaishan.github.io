@@ -164,16 +164,15 @@ export const singleProject = [
   },
   {
     id: 102,
-    image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEhWATwkrFqL0IF_XUh1JVCBOyj88Bf0W9qA&usqp=CAU",
+    image: "./../images/mini-note-app.png",
     title: "A B C",
-    info: "This is a project about A b c",
+    info: "This is a mini note app project that was created via JavaScript and React.",
     skill1: "HTML",
     skill2: "CSS",
     skill3: "JavaScript",
     skill4: "React",
-    codeUrl: "123",
-    demoUrl: "abc",
+    codeUrl: "https://github.com/kaishan-baik/mini-note-app",
+    demoUrl: "https://mini-note-app.netlify.app/",
   },
   {
     id: 103,
