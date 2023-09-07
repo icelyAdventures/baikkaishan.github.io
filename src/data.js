@@ -11,11 +11,6 @@ import {
 
 import { IoLogoJavascript } from "react-icons/io5";
 
-// import elmo from "./images/elmo.gif";
-// import homer from "./images/homer.gif";
-// import nyan from "./images/nyan.webp";
-// import patrick from "./images/patrick.gif";
-
 export const links = [
   //   {
   //     id: 1,
