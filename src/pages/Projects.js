@@ -1,6 +1,7 @@
 import React from "react";
 import typingTest from "../assets/projects/typingTest.png";
 import jsCalculator from "../assets/projects/jsCalculator.png";
+import doodleJump from "../assets/projects/doodle-jump.gif";
 import note from "../assets/projects/note.png";
 import janken from "../assets/projects/janken.png";
 import qrifyMe from "../assets/projects/qrifyMe.png";
@@ -34,13 +35,21 @@ const Projects = () => {
       codeUrl: "https://github.com/kaishan-baik/react-qr-generator",
       demoUrl: "https://qrify-me.netlify.app",
     },
+    // {
+    //   id: 204,
+    //   src: jsCalculator,
+    //   name: "GottaCalcThemAll",
+    //   desc: "This is a Javascript Calculator with the theme that was inspired by Great Wave of Kanagawa",
+    //   codeUrl: "https://github.com/kaishan-baik/js-calculator-app",
+    //   demoUrl: "https://poke-calculator-app.netlify.app/",
+    // },
     {
       id: 204,
-      src: jsCalculator,
-      name: "GottaCalcThemAll",
-      desc: "This is a Javascript Calculator with the theme that was inspired by Great Wave of Kanagawa",
-      codeUrl: "https://github.com/kaishan-baik/js-calculator-app",
-      demoUrl: "https://poke-calculator-app.netlify.app/",
+      src: doodleJump,
+      name: "Doodle Jump Clone",
+      desc: "This is a clone of the fun and famous Doodle Jump that was created via HTML, CSS and JavaScript!",
+      codeUrl: "https://github.com/kaishan-baik/doodle-jump-app",
+      demoUrl: "https://doodle-jump-app.netlify.app/",
     },
     {
       id: 205,
