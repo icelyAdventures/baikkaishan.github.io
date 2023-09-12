@@ -1,8 +1,9 @@
 import React from "react";
 import typingTest from "../assets/projects/typingTest.png";
-import jsCalculator from "../assets/projects/jsCalculator.png";
+// import jsCalculator from "../assets/projects/jsCalculator.png";
 import doodleJump from "../assets/projects/doodle-jump.gif";
-import note from "../assets/projects/note.png";
+// import note from "../assets/projects/note.png";
+import bioplus from "../assets/projects/company-website.png";
 import janken from "../assets/projects/janken.png";
 import qrifyMe from "../assets/projects/qrifyMe.png";
 import weather360 from "../assets/projects/weather360.png";
@@ -51,14 +52,23 @@ const Projects = () => {
       codeUrl: "https://github.com/kaishan-baik/doodle-jump-app",
       demoUrl: "https://doodle-jump-app.netlify.app/",
     },
+    // {
+    //   id: 205,
+    //   src: note,
+    //   name: "MemoMe",
+    //   desc: "This is a mini note app project that was created via JavaScript and React. It is a simple note app to test my Javascript and React skills.",
+    //   codeUrl: "https://github.com/kaishan-baik/mini-note-app",
+    //   demoUrl: "https://mini-note-app.netlify.app/",
+    // },
     {
       id: 205,
-      src: note,
-      name: "MemoMe",
-      desc: "This is a mini note app project that was created via JavaScript and React. It is a simple note app to test my Javascript and React skills.",
-      codeUrl: "https://github.com/kaishan-baik/mini-note-app",
-      demoUrl: "https://mini-note-app.netlify.app/",
+      src: bioplus,
+      name: "Bioplus RE Website",
+      desc: "This is the responsive Bioplus RE website that I created using JavaScript, React and Tailwind CSS. It is still a work in progress as some of the links are still not complete. ",
+      codeUrl: "https://github.com/kaishan-baik/bioplus-re",
+      demoUrl: "https://bioplus-re.netlify.app/",
     },
+
     {
       id: 206,
       src: janken,
