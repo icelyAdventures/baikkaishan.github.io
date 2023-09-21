@@ -1,40 +1,43 @@
-import React from "react";
-import typingTest from "../assets/projects/typingTest.png";
+import React from 'react';
+
 // import jsCalculator from "../assets/projects/jsCalculator.png";
-import doodleJump from "../assets/projects/doodle-jump.gif";
 // import note from "../assets/projects/note.png";
-import bioplus from "../assets/projects/company-website.png";
-import janken from "../assets/projects/janken.png";
-import qrifyMe from "../assets/projects/qrifyMe.png";
-import weather360 from "../assets/projects/weather360.png";
+// import janken from "../assets/projects/janken.png";
+
+import shopEasy from '../assets/projects/shop-easy.png';
+import typingTest from '../assets/projects/typingTest.png';
+import doodleJump from '../assets/projects/doodle-jump.gif';
+import bioplus from '../assets/projects/company-website.png';
+import qrifyMe from '../assets/projects/qrifyMe.png';
+import weather360 from '../assets/projects/weather360.png';
 
 const Projects = () => {
   const projects = [
     {
       id: 201,
       src: typingTest,
-      name: "KeySprint - TS",
-      desc: "This is a typing speed & accuracy test app that was build via TypeScript and React. This is also my first attempt with using TypeScript.",
-      codeUrl: "https://github.com/kaishan-baik/ts-typing-test",
-      demoUrl: "https://ts-typing-test.netlify.app/",
+      name: 'KeySprint - TS',
+      desc: 'This is a typing speed & accuracy test app that was build via TypeScript and React. This is also my first attempt with using TypeScript.',
+      codeUrl: 'https://github.com/kaishan-baik/ts-typing-test',
+      demoUrl: 'https://ts-typing-test.netlify.app/',
     },
 
     {
       id: 202,
       src: weather360,
-      name: "Weather 360",
-      desc: "This project is a weather forecast app that was created using mainly React and Tailwind CSS. This app fetches the data from the OpenWeatherMap API and displays the current weather for each location, including the forecast weather details.",
-      codeUrl: "https://github.com/kaishan-baik/weather-forecast",
-      demoUrl: "https://weather360-forecast-app.netlify.app/",
+      name: 'Weather 360',
+      desc: 'This project is a weather forecast app that was created using mainly React and Tailwind CSS. This app fetches the data from the OpenWeatherMap API and displays the current weather for each location, including the forecast weather details.',
+      codeUrl: 'https://github.com/kaishan-baik/weather-forecast',
+      demoUrl: 'https://weather360-forecast-app.netlify.app/',
     },
 
     {
-      id: 203,
+      id: 206,
       src: qrifyMe,
-      name: "QRify-Me",
-      desc: "This is a QR code generator created using mainly React. You can feed it with any link that you want and it can create a working QR code for you!",
-      codeUrl: "https://github.com/kaishan-baik/react-qr-generator",
-      demoUrl: "https://qrify-me.netlify.app",
+      name: 'QRify-Me',
+      desc: 'This is a QR code generator created using mainly React. You can feed it with any link that you want and it can create a working QR code for you!',
+      codeUrl: 'https://github.com/kaishan-baik/react-qr-generator',
+      demoUrl: 'https://qrify-me.netlify.app',
     },
     // {
     //   id: 204,
@@ -47,10 +50,10 @@ const Projects = () => {
     {
       id: 204,
       src: doodleJump,
-      name: "Doodle Jump Clone",
-      desc: "This is a clone of the fun and famous Doodle Jump that was created via HTML, CSS and JavaScript!",
-      codeUrl: "https://github.com/kaishan-baik/doodle-jump-app",
-      demoUrl: "https://doodle-jump-app.netlify.app/",
+      name: 'Doodle Jump Clone',
+      desc: 'This is a clone of the fun and famous Doodle Jump that was created via HTML, CSS and JavaScript!',
+      codeUrl: 'https://github.com/kaishan-baik/doodle-jump-app',
+      demoUrl: 'https://doodle-jump-app.netlify.app/',
     },
     // {
     //   id: 205,
@@ -63,20 +66,28 @@ const Projects = () => {
     {
       id: 205,
       src: bioplus,
-      name: "Bioplus RE Website",
-      desc: "This is the responsive Bioplus RE website that I created using JavaScript, React and Tailwind CSS. It is still a work in progress as some of the links are still not complete. ",
-      codeUrl: "https://github.com/kaishan-baik/bioplus-re",
-      demoUrl: "https://bioplus-re.netlify.app/",
+      name: 'Bioplus RE Website',
+      desc: 'This is the responsive Bioplus RE website that I created using JavaScript, React and Tailwind CSS. It is still a work in progress as some of the links are still not complete. ',
+      codeUrl: 'https://github.com/kaishan-baik/bioplus-re',
+      demoUrl: 'https://bioplus-re.netlify.app/',
     },
 
     {
-      id: 206,
-      src: janken,
-      name: "Janken!",
-      desc: "This is a simple Rock-Paper-Scissors App that was created using the knowledge of HTML, CSS, JavaScript. This was one of the first few projects that I've created.",
-      codeUrl: "https://github.com/kaishan-baik/janken",
-      demoUrl: "https://rock-paper-scissors-janken.netlify.app/",
+      id: 203,
+      src: shopEasy,
+      name: 'Shop-Easy!',
+      desc: 'Shop-Easy is a simple Ecommerce website that was created using Javascript, React JS & Tailwind CSS. The data was obtained from FakeStore API. This project includes the usage of various React hooks like useContext, useParams, useState & useEffect.',
+      codeUrl: 'https://bks-shop-easy.netlify.app/',
+      demoUrl: 'https://github.com/kaishan-baik/shop-easy',
     },
+    // {
+    //   id: 206,
+    //   src: janken,
+    //   name: 'Janken!',
+    //   desc: "This is a simple Rock-Paper-Scissors App that was created using the knowledge of HTML, CSS, JavaScript. This was one of the first few projects that I've created.",
+    //   codeUrl: 'https://github.com/kaishan-baik/janken',
+    //   demoUrl: 'https://rock-paper-scissors-janken.netlify.app/',
+    // },
   ];
 
   return (
