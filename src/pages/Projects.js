@@ -21,16 +21,39 @@ const Projects = () => {
       codeUrl: 'https://github.com/kaishan-baik/ts-typing-test',
       demoUrl: 'https://ts-typing-test.netlify.app/',
     },
-
     {
       id: 202,
+      src: shopEasy,
+      name: 'Shop-Easy!',
+      desc: 'Shop-Easy is a simple Ecommerce website that was created using Javascript, React JS & Tailwind CSS. The data was obtained from FakeStore API. This project includes the usage of various React hooks like useContext, useParams, useState & useEffect.',
+      codeUrl: 'https://bks-shop-easy.netlify.app/',
+      demoUrl: 'https://github.com/kaishan-baik/shop-easy',
+    },
+
+    {
+      id: 203,
+      src: bioplus,
+      name: 'Bioplus RE Website',
+      desc: 'This is the responsive Bioplus RE website that I created using JavaScript, React and Tailwind CSS. It is still a work in progress as some of the links are still not complete. ',
+      codeUrl: 'https://github.com/kaishan-baik/bioplus-re',
+      demoUrl: 'https://bioplus-re.netlify.app/',
+    },
+    {
+      id: 204,
       src: weather360,
       name: 'Weather 360',
       desc: 'This project is a weather forecast app that was created using mainly React and Tailwind CSS. This app fetches the data from the OpenWeatherMap API and displays the current weather for each location, including the forecast weather details.',
       codeUrl: 'https://github.com/kaishan-baik/weather-forecast',
       demoUrl: 'https://weather360-forecast-app.netlify.app/',
     },
-
+    {
+      id: 205,
+      src: doodleJump,
+      name: 'Doodle Jump Clone',
+      desc: 'This is a clone of the fun and famous Doodle Jump that was created via HTML, CSS and JavaScript!',
+      codeUrl: 'https://github.com/kaishan-baik/doodle-jump-app',
+      demoUrl: 'https://doodle-jump-app.netlify.app/',
+    },
     {
       id: 206,
       src: qrifyMe,
@@ -39,6 +62,7 @@ const Projects = () => {
       codeUrl: 'https://github.com/kaishan-baik/react-qr-generator',
       demoUrl: 'https://qrify-me.netlify.app',
     },
+
     // {
     //   id: 204,
     //   src: jsCalculator,
@@ -47,14 +71,7 @@ const Projects = () => {
     //   codeUrl: "https://github.com/kaishan-baik/js-calculator-app",
     //   demoUrl: "https://poke-calculator-app.netlify.app/",
     // },
-    {
-      id: 204,
-      src: doodleJump,
-      name: 'Doodle Jump Clone',
-      desc: 'This is a clone of the fun and famous Doodle Jump that was created via HTML, CSS and JavaScript!',
-      codeUrl: 'https://github.com/kaishan-baik/doodle-jump-app',
-      demoUrl: 'https://doodle-jump-app.netlify.app/',
-    },
+
     // {
     //   id: 205,
     //   src: note,
@@ -63,23 +80,6 @@ const Projects = () => {
     //   codeUrl: "https://github.com/kaishan-baik/mini-note-app",
     //   demoUrl: "https://mini-note-app.netlify.app/",
     // },
-    {
-      id: 205,
-      src: bioplus,
-      name: 'Bioplus RE Website',
-      desc: 'This is the responsive Bioplus RE website that I created using JavaScript, React and Tailwind CSS. It is still a work in progress as some of the links are still not complete. ',
-      codeUrl: 'https://github.com/kaishan-baik/bioplus-re',
-      demoUrl: 'https://bioplus-re.netlify.app/',
-    },
-
-    {
-      id: 203,
-      src: shopEasy,
-      name: 'Shop-Easy!',
-      desc: 'Shop-Easy is a simple Ecommerce website that was created using Javascript, React JS & Tailwind CSS. The data was obtained from FakeStore API. This project includes the usage of various React hooks like useContext, useParams, useState & useEffect.',
-      codeUrl: 'https://bks-shop-easy.netlify.app/',
-      demoUrl: 'https://github.com/kaishan-baik/shop-easy',
-    },
     // {
     //   id: 206,
     //   src: janken,
