@@ -26,8 +26,8 @@ const Projects = () => {
       src: shopEasy,
       name: 'Shop-Easy!',
       desc: 'Shop-Easy is a simple Ecommerce website that was created using Javascript, React JS & Tailwind CSS. The data was obtained from FakeStore API. This project includes the usage of various React hooks like useContext, useParams, useState & useEffect.',
-      codeUrl: 'https://bks-shop-easy.netlify.app/',
-      demoUrl: 'https://github.com/kaishan-baik/shop-easy',
+      codeUrl: 'https://github.com/kaishan-baik/shop-easy',
+      demoUrl: 'https://bks-shop-easy.netlify.app/',
     },
 
     {
