@@ -16,6 +16,14 @@ const Projects = () => {
   const projects = [
     {
       id: 201,
+      src: itadaki,
+      name: 'Recipe Itadaki',
+      desc: 'This is a recipe finder app created using mainly React & Tailwind Css. This is a simple take for making API calls via frontend only projects',
+      codeUrl: 'https://github.com/kaishan-baik/recipe-itadaki',
+      demoUrl: 'https://https://recipe-itadaki.netlify.app/',
+    },
+    {
+      id: 202,
       src: typingTest,
       name: 'KeySprint - TS',
       desc: 'This is a typing speed & accuracy test app that was build via TypeScript and React. This is also my first attempt with using TypeScript.',
@@ -23,7 +31,7 @@ const Projects = () => {
       demoUrl: 'https://ts-typing-test.netlify.app/',
     },
     {
-      id: 202,
+      id: 203,
       src: shopEasy,
       name: 'Shop-Easy!',
       desc: 'Shop-Easy is a simple Ecommerce website that was created using Javascript, React JS & Tailwind CSS. The data was obtained from FakeStore API. This project includes the usage of various React hooks like useContext, useParams, useState & useEffect.',
@@ -32,7 +40,7 @@ const Projects = () => {
     },
 
     {
-      id: 203,
+      id: 204,
       src: bioplus,
       name: 'Bioplus RE Website',
       desc: 'This is the responsive Bioplus RE website that I created using JavaScript, React and Tailwind CSS. It is still a work in progress as some of the links are still not complete. ',
@@ -40,7 +48,7 @@ const Projects = () => {
       demoUrl: 'https://bioplus-re.netlify.app/',
     },
     {
-      id: 204,
+      id: 205,
       src: weather360,
       name: 'Weather 360',
       desc: 'This project is a weather forecast app that was created using mainly React and Tailwind CSS. This app fetches the data from the OpenWeatherMap API and displays the current weather for each location, including the forecast weather details.',
@@ -48,20 +56,12 @@ const Projects = () => {
       demoUrl: 'https://weather360-forecast-app.netlify.app/',
     },
     {
-      id: 205,
+      id: 206,
       src: doodleJump,
       name: 'Doodle Jump Clone',
       desc: 'This is a clone of the fun and famous Doodle Jump that was created via HTML, CSS and JavaScript!',
       codeUrl: 'https://github.com/kaishan-baik/doodle-jump-app',
       demoUrl: 'https://doodle-jump-app.netlify.app/',
-    },
-    {
-      id: 206,
-      src: itadaki,
-      name: 'Recipe Itadaki',
-      desc: 'This is a recipe finder app created using mainly React & Tailwind Css. This is a simple take for making API calls via frontend only projects',
-      codeUrl: 'https://github.com/kaishan-baik/recipe-itadaki',
-      demoUrl: 'https://https://recipe-itadaki.netlify.app/',
     },
 
     // {
