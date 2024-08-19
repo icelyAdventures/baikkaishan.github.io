@@ -3,12 +3,13 @@ import React from 'react';
 // import jsCalculator from "../assets/projects/jsCalculator.png";
 // import note from "../assets/projects/note.png";
 // import janken from "../assets/projects/janken.png";
+// import qrifyMe from '../assets/projects/qrifyMe.png';
 
 import shopEasy from '../assets/projects/shop-easy.png';
 import typingTest from '../assets/projects/typingTest.png';
 import doodleJump from '../assets/projects/doodle-jump.gif';
 import bioplus from '../assets/projects/company-website.png';
-import qrifyMe from '../assets/projects/qrifyMe.png';
+import itadaki from '../assets/projects/recipe-itadaki.png';
 import weather360 from '../assets/projects/weather360.png';
 
 const Projects = () => {
@@ -56,12 +57,21 @@ const Projects = () => {
     },
     {
       id: 206,
-      src: qrifyMe,
-      name: 'QRify-Me',
-      desc: 'This is a QR code generator created using mainly React. You can feed it with any link that you want and it can create a working QR code for you!',
-      codeUrl: 'https://github.com/kaishan-baik/react-qr-generator',
-      demoUrl: 'https://qrify-me.netlify.app',
+      src: itadaki,
+      name: 'Recipe Itadaki',
+      desc: 'This is a recipe finder app created using mainly React & Tailwind Css. This is a simple take for making API calls via frontend only projects',
+      codeUrl: 'https://github.com/kaishan-baik/recipe-itadaki',
+      demoUrl: 'https://https://recipe-itadaki.netlify.app/',
     },
+
+    // {
+    //   id: 206,
+    //   src: qrifyMe,
+    //   name: 'QRify-Me',
+    //   desc: 'This is a QR code generator created using mainly React. You can feed it with any link that you want and it can create a working QR code for you!',
+    //   codeUrl: 'https://github.com/kaishan-baik/react-qr-generator',
+    //   demoUrl: 'https://qrify-me.netlify.app',
+    // },
 
     // {
     //   id: 204,
