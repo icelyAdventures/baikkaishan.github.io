@@ -6,7 +6,6 @@ import reactImg from './../assets/skills/react.png';
 import github from './../assets/skills/github.png';
 import tailwind from './../assets/skills/tailwind.png';
 import typescript from './../assets/skills/typescript.png';
-import bootstrap from './../assets/skills/bootstrap.png';
 // import d3 from "./../assets/skills/d3.png";
 import mysql from './../assets/skills/mysql.png';
 import nodejs from './../assets/skills/nodeJs.png';
