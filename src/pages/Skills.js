@@ -9,7 +9,6 @@ import typescript from './../assets/skills/typescript.png';
 import bootstrap from './../assets/skills/bootstrap.png';
 // import d3 from "./../assets/skills/d3.png";
 import mysql from './../assets/skills/mysql.png';
-import mariaDB from './../assets/skills/mariaDB.png';
 import nodejs from './../assets/skills/nodeJs.png';
 
 const Skills = () => {
