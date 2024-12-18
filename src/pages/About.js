@@ -1,5 +1,5 @@
-import React from "react";
-import profile from "./../profile.jpg";
+import React from 'react';
+import profile from './../profile.jpg';
 
 const About = () => {
   return (
@@ -17,11 +17,16 @@ const About = () => {
           <div>
             <p className="text-md sm:text-lg mt-10 text-justify enterFromLeftSlower">
               Hi, I'm Baik, a versatile professional who transitioned from the
-              world of civil engineering to become a passionate front-end web
-              developer in March 2023. With a solid foundation in
-              problem-solving and an eye for detail, I bring a unique
-              perspective to crafting visually appealing and user-friendly
-              digital experiences.
+              world of civil engineering to become a passionate web developer in
+              March 2023. With a solid foundation in problem-solving and an eye
+              for detail, I bring a unique perspective to crafting visually
+              appealing and user-friendly digital experiences.
+            </p>
+            <br />
+            <p className="text-md sm:text-lg text-justify enterFromLeftSlower">
+              I bring hands-on experience with HTML, CSS, JavaScript, MariaDB,
+              Express, ReactJs and NodeJs to design, develop and maintain
+              software applications!
             </p>
             <br />
             <p className="text-md sm:text-lg text-justify enterFromLeftSlower">

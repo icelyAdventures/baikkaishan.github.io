@@ -9,6 +9,8 @@ import typescript from './../assets/skills/typescript.png';
 import bootstrap from './../assets/skills/bootstrap.png';
 // import d3 from "./../assets/skills/d3.png";
 import mysql from './../assets/skills/mysql.png';
+import mariaDB from './../assets/skills/mariaDB.png';
+import nodejs from './../assets/skills/nodeJs.png';
 
 const Skills = () => {
   const skills = [
@@ -62,9 +64,9 @@ const Skills = () => {
     },
     {
       id: 309,
-      src: bootstrap,
-      title: 'Bootstrap',
-      style: 'shadow-purple-500',
+      src: nodejs,
+      title: 'Node.js',
+      style: 'shadow-green-500',
     },
   ];
 
@@ -92,7 +94,11 @@ const Skills = () => {
                 style
               }
             >
-              <img src={src} alt="skills" className="w-20 mx-auto" />
+              <img
+                src={src}
+                alt="skills"
+                className="h-20 w-20 object-contain  mx-auto"
+              />
               <p className="py-3">{title}</p>
             </div>
           ))}

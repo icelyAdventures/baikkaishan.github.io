@@ -1,5 +1,5 @@
-import React from "react";
-import { Link } from "react-scroll";
+import React from 'react';
+import { Link } from 'react-scroll';
 import {
   BiLogoHtml5,
   BiLogoCss3,
@@ -7,42 +7,42 @@ import {
   BiLogoReact,
   BiLogoTypescript,
   BiDownload,
-} from "react-icons/bi";
-import { MdOutlineKeyboardArrowRight } from "react-icons/md";
-import Resume from "./../assets/BKS-Resume.pdf";
-import { FaGithub } from "react-icons/fa";
+} from 'react-icons/bi';
+import { MdOutlineKeyboardArrowRight } from 'react-icons/md';
+import Resume from './../assets/BKS-Resume.pdf';
+import { FaGithub } from 'react-icons/fa';
 
 const Home = () => {
   const icons = [
     {
       id: 1,
       icon: <BiLogoHtml5 />,
-      name: "HTML",
-      style: "text-orange-400",
+      name: 'HTML',
+      style: 'text-orange-400',
     },
     {
       id: 2,
       icon: <BiLogoCss3 />,
-      name: "CSS",
-      style: "text-sky-400",
+      name: 'CSS',
+      style: 'text-sky-400',
     },
     {
       id: 3,
       icon: <BiLogoJavascript />,
-      name: "JavaScript",
-      style: "text-yellow-400",
+      name: 'JavaScript',
+      style: 'text-yellow-400',
     },
     {
       id: 4,
       icon: <BiLogoReact />,
-      name: "React",
-      style: "text-cyan-500",
+      name: 'React',
+      style: 'text-cyan-500',
     },
     {
       id: 5,
       icon: <BiLogoTypescript />,
-      name: "TypeScript",
-      style: "text-blue-500",
+      name: 'TypeScript',
+      style: 'text-blue-500',
     },
   ];
 
@@ -56,14 +56,14 @@ const Home = () => {
           <h1
             className="text-5xl sm:text-6xl font-bold text-white mb-3 tracking-wider enterFromLeft"
             style={{
-              textShadow: "5px 5px 12px #1c6190",
-              fontFamily: "Kaushan Script",
+              textShadow: '5px 5px 12px #1c6190',
+              fontFamily: 'Kaushan Script',
             }}
           >
             Baik Kai Shan
           </h1>
           <h2 className="text-3xl sm:text-4xl font-semibold text-blue-400 tracking-widest my-2 uppercase enterFromRight ">
-            - Frontend Developer -
+            - Software Engineer -
           </h2>
           <div className="text-blue-200  text-2xl mt-2 mb-4 max-w-full flex flex-wrap justify-center enterFromLeftSlower ">
             {icons.map(({ id, icon, name, style }) => (
